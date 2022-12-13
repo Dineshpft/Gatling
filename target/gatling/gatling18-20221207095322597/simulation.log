@@ -1,0 +1,5 @@
+RUN	mysimulations.Gatling18	gatling18	1670406802597	 	3.6.1
+USER	BlazeHomePage	START	1670406803993
+REQUEST	Homepage_tx	Homepage_request	1670406804014	1670406804599	KO	status.find.is(201), but actually found 200
+GROUP	Homepage_tx	1670406803994	1670406804628	585	KO
+USER	BlazeHomePage	END	1670406804634

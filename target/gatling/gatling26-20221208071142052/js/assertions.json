@@ -1,0 +1,10 @@
+{
+  "simulation": "mysimulations.Gatling26",
+  "simulationId": "gatling26",
+  "start": 1670483502052,
+  "description": "Gatling Execution",
+  "scenarios": ["SoapAPI"],
+  "assertions": [
+
+  ]
+}

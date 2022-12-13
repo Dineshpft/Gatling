@@ -1,0 +1,10 @@
+{
+  "simulation": "mysimulations.Gatling28",
+  "simulationId": "gatling28",
+  "start": 1670490876190,
+  "description": "Gatling Execution",
+  "scenarios": ["RESTAPI"],
+  "assertions": [
+
+  ]
+}

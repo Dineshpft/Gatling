@@ -1,0 +1,12 @@
+RUN	mysimulations.Gatling12	gatling12	1670328255296	 	3.6.1
+USER	BlazeHomePage	START	1670328256840
+REQUEST	Homepage_tx	Homepage_request	1670328256918	1670328257507	OK	 
+REQUEST	Homepage_tx	bootstrap.min.js	1670328257625	1670328257936	OK	 
+REQUEST	Homepage_tx	jquery.min.js	1670328257624	1670328258016	OK	 
+REQUEST	Homepage_tx	bootstrap-table.css	1670328257628	1670328258081	OK	 
+REQUEST	Homepage_tx	bootstrap-table.js	1670328257626	1670328258452	OK	 
+REQUEST	Homepage_tx	bootstrap.min.css	1670328257627	1670328258491	OK	 
+GROUP	Homepage_tx	1670328256843	1670328258503	1472	OK
+REQUEST	FindFlight_tx	FindFlightRequest	1670328263527	1670328268696	KO	substring(Flight from Boston to Berlin:).find.exists, found nothing
+GROUP	FindFlight_tx	1670328263520	1670328268716	5169	KO
+USER	BlazeHomePage	END	1670328268725

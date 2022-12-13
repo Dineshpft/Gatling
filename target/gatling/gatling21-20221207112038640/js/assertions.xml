@@ -1,0 +1,68 @@
+<testsuite name="mysimulations.Gatling21" tests="22" errors="0" failures="15" time="0">
+<testcase name="Global: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="Global">Actual value: 10647.0</failure>
+</testcase>
+<testcase name="Homepage_tx / Homepage_request: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="Homepage_tx / Homepage_request">Actual value: 9703.0</failure>
+</testcase>
+<testcase name="Homepage_tx / jquery.min.js: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>Homepage_tx / jquery.min.js: max of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="Homepage_tx / bootstrap.min.js: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="Homepage_tx / bootstrap.min.js">Actual value: 5614.0</failure>
+</testcase>
+<testcase name="Homepage_tx / bootstrap-table.js: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="Homepage_tx / bootstrap-table.js">Actual value: 10647.0</failure>
+</testcase>
+<testcase name="Homepage_tx / bootstrap.min.css: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="Homepage_tx / bootstrap.min.css">Actual value: 6059.0</failure>
+</testcase>
+<testcase name="Homepage_tx / bootstrap-table.css: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="Homepage_tx / bootstrap-table.css">Actual value: 6259.0</failure>
+</testcase>
+<testcase name="FindFlight_tx / FindFlightRequest: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="FindFlight_tx / FindFlightRequest">Actual value: 9308.0</failure>
+</testcase>
+<testcase name="FindFlight_tx / bootstrap.min.js: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>FindFlight_tx / bootstrap.min.js: max of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="FindFlight_tx / bootstrap-table.js: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>FindFlight_tx / bootstrap-table.js: max of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="FindFlight_tx / bootstrap.min.css: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="FindFlight_tx / bootstrap.min.css">Actual value: 5856.0</failure>
+</testcase>
+<testcase name="FindFlight_tx / bootstrap-table.css: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="FindFlight_tx / bootstrap-table.css">Actual value: 5854.0</failure>
+</testcase>
+<testcase name="selectFlight_tx / SelectFlight_request: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="selectFlight_tx / SelectFlight_request">Actual value: 5008.0</failure>
+</testcase>
+<testcase name="selectFlight_tx / bootstrap.min.js: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="selectFlight_tx / bootstrap.min.js">Actual value: 5476.0</failure>
+</testcase>
+<testcase name="selectFlight_tx / bootstrap-table.js: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>selectFlight_tx / bootstrap-table.js: max of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="selectFlight_tx / bootstrap.min.css: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="selectFlight_tx / bootstrap.min.css">Actual value: 5577.0</failure>
+</testcase>
+<testcase name="selectFlight_tx / bootstrap-table.css: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>selectFlight_tx / bootstrap-table.css: max of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="purchaseTicket_tx / purchaseTicket_request: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>purchaseTicket_tx / purchaseTicket_request: max of response time is less than 5000.0</system-out>
+</testcase>
+<testcase name="purchaseTicket_tx / bootstrap.min.js: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="purchaseTicket_tx / bootstrap.min.js">Actual value: 6159.0</failure>
+</testcase>
+<testcase name="purchaseTicket_tx / bootstrap-table.js: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="purchaseTicket_tx / bootstrap-table.js">Actual value: 6012.0</failure>
+</testcase>
+<testcase name="purchaseTicket_tx / bootstrap.min.css: max of response time is less than 5000.0" status="false" time="0">
+  <failure type="purchaseTicket_tx / bootstrap.min.css">Actual value: 6258.0</failure>
+</testcase>
+<testcase name="purchaseTicket_tx / bootstrap-table.css: max of response time is less than 5000.0" status="true" time="0">
+  <system-out>purchaseTicket_tx / bootstrap-table.css: max of response time is less than 5000.0</system-out>
+</testcase>
+</testsuite>

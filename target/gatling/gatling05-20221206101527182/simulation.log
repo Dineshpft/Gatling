@@ -1,0 +1,5 @@
+RUN	mysimulations.Gatling05	gatling05	1670321727182	 	3.6.1
+USER	BlazeHomePage	START	1670321728956
+REQUEST		Homepage_request	1670321728992	1670321730679	OK	 
+REQUEST		googlelogo_white_background_color_272x92dp.png	1670321730825	1670321730886	OK	 
+USER	BlazeHomePage	END	1670321730903

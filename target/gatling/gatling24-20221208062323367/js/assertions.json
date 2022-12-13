@@ -1,0 +1,10 @@
+{
+  "simulation": "mysimulations.Gatling24",
+  "simulationId": "gatling24",
+  "start": 1670480603367,
+  "description": "Gatling Execution",
+  "scenarios": ["BlazeHomePage"],
+  "assertions": [
+
+  ]
+}

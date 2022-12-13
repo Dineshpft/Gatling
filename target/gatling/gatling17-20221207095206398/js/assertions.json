@@ -1,0 +1,10 @@
+{
+  "simulation": "mysimulations.gatling17",
+  "simulationId": "gatling17",
+  "start": 1670406726398,
+  "description": "",
+  "scenarios": ["BerkeleyHomePage"],
+  "assertions": [
+
+  ]
+}

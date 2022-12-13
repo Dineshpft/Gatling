@@ -1,0 +1,18 @@
+{
+  "simulation": "mysimulations.Gatling30",
+  "simulationId": "gatling30",
+  "start": 1670494244801,
+  "description": "Gatling Execution",
+  "scenarios": ["BlazeHomePage"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 5000.0",
+  "actualValue": [1782.0]
+}
+  ]
+}

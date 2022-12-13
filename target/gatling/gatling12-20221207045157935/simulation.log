@@ -1,0 +1,12 @@
+RUN	mysimulations.Gatling12	gatling12	1670388717935	 	3.6.1
+USER	BlazeHomePage	START	1670388719067
+REQUEST	Homepage_tx	Homepage_request	1670388719100	1670388719572	OK	 
+REQUEST	Homepage_tx	jquery.min.js	1670388719642	1670388719744	OK	 
+REQUEST	Homepage_tx	bootstrap.min.js	1670388719644	1670388719953	OK	 
+REQUEST	Homepage_tx	bootstrap-table.js	1670388719645	1670388720239	OK	 
+REQUEST	Homepage_tx	bootstrap.min.css	1670388719647	1670388720297	OK	 
+REQUEST	Homepage_tx	bootstrap-table.css	1670388719647	1670388720317	OK	 
+GROUP	Homepage_tx	1670388719069	1670388720318	1151	OK
+REQUEST	FindFlight_tx	FindFlightRequest	1670388725329	1670388725706	KO	css((body > div.container > table > tbody > tr:nth-child(3) > td:nth-child(2),None)).find.exists, found nothing
+GROUP	FindFlight_tx	1670388725325	1670388725746	377	KO
+USER	BlazeHomePage	END	1670388725751

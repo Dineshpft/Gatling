@@ -1,0 +1,207 @@
+{
+  "simulation": "mysimulations.Gatling22",
+  "simulationId": "gatling22",
+  "start": 1670475988114,
+  "description": "Gatling Execution",
+  "scenarios": ["BlazeHomePage"],
+  "assertions": [
+{
+  "path": "Global",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Global: max of response time is less than 5000.0",
+  "actualValue": [1046.0]
+},
+{
+  "path": "Homepage_tx / Homepage_request",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Homepage_tx / Homepage_request: max of response time is less than 5000.0",
+  "actualValue": [726.0]
+},
+{
+  "path": "Homepage_tx / jquery.min.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Homepage_tx / jquery.min.js: max of response time is less than 5000.0",
+  "actualValue": [75.0]
+},
+{
+  "path": "Homepage_tx / bootstrap.min.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Homepage_tx / bootstrap.min.js: max of response time is less than 5000.0",
+  "actualValue": [499.0]
+},
+{
+  "path": "Homepage_tx / bootstrap-table.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Homepage_tx / bootstrap-table.js: max of response time is less than 5000.0",
+  "actualValue": [684.0]
+},
+{
+  "path": "Homepage_tx / bootstrap.min.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Homepage_tx / bootstrap.min.css: max of response time is less than 5000.0",
+  "actualValue": [1046.0]
+},
+{
+  "path": "Homepage_tx / bootstrap-table.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "Homepage_tx / bootstrap-table.css: max of response time is less than 5000.0",
+  "actualValue": [736.0]
+},
+{
+  "path": "FindFlight_tx / FindFlightRequest",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "FindFlight_tx / FindFlightRequest: max of response time is less than 5000.0",
+  "actualValue": [524.0]
+},
+{
+  "path": "FindFlight_tx / bootstrap.min.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "FindFlight_tx / bootstrap.min.js: max of response time is less than 5000.0",
+  "actualValue": [347.0]
+},
+{
+  "path": "FindFlight_tx / bootstrap-table.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "FindFlight_tx / bootstrap-table.js: max of response time is less than 5000.0",
+  "actualValue": [315.0]
+},
+{
+  "path": "FindFlight_tx / bootstrap.min.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "FindFlight_tx / bootstrap.min.css: max of response time is less than 5000.0",
+  "actualValue": [297.0]
+},
+{
+  "path": "FindFlight_tx / bootstrap-table.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "FindFlight_tx / bootstrap-table.css: max of response time is less than 5000.0",
+  "actualValue": [413.0]
+},
+{
+  "path": "selectFlight_tx / SelectFlight_request",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "selectFlight_tx / SelectFlight_request: max of response time is less than 5000.0",
+  "actualValue": [431.0]
+},
+{
+  "path": "selectFlight_tx / bootstrap.min.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "selectFlight_tx / bootstrap.min.js: max of response time is less than 5000.0",
+  "actualValue": [275.0]
+},
+{
+  "path": "selectFlight_tx / bootstrap-table.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "selectFlight_tx / bootstrap-table.js: max of response time is less than 5000.0",
+  "actualValue": [299.0]
+},
+{
+  "path": "selectFlight_tx / bootstrap.min.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "selectFlight_tx / bootstrap.min.css: max of response time is less than 5000.0",
+  "actualValue": [434.0]
+},
+{
+  "path": "selectFlight_tx / bootstrap-table.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "selectFlight_tx / bootstrap-table.css: max of response time is less than 5000.0",
+  "actualValue": [489.0]
+},
+{
+  "path": "purchaseTicket_tx / purchaseTicket_request",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "purchaseTicket_tx / purchaseTicket_request: max of response time is less than 5000.0",
+  "actualValue": [560.0]
+},
+{
+  "path": "purchaseTicket_tx / bootstrap.min.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "purchaseTicket_tx / bootstrap.min.js: max of response time is less than 5000.0",
+  "actualValue": [262.0]
+},
+{
+  "path": "purchaseTicket_tx / bootstrap-table.js",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "purchaseTicket_tx / bootstrap-table.js: max of response time is less than 5000.0",
+  "actualValue": [271.0]
+},
+{
+  "path": "purchaseTicket_tx / bootstrap.min.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "purchaseTicket_tx / bootstrap.min.css: max of response time is less than 5000.0",
+  "actualValue": [275.0]
+},
+{
+  "path": "purchaseTicket_tx / bootstrap-table.css",
+  "target": "max of response time",
+  "condition": "is less than",
+  "expectedValues": [5000.0],
+  "result": true,
+  "message": "purchaseTicket_tx / bootstrap-table.css: max of response time is less than 5000.0",
+  "actualValue": [418.0]
+}
+  ]
+}
